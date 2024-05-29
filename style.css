@@ -1,0 +1,59 @@
+/*
+ * Theme Name: Theme Site
+ * Author: Eduard Shpigel
+ * Author URI: https://t.me/edshpigel
+ */
+
+ @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap;);
+.license{color: #B3AEC7;}
+
+.span-lic {
+	margin-right: 25px;}
+
+.team__item {
+	height: 100%;
+}
+
+.service-info__wrapper {
+	display: flex;
+	gap: 60px;
+}
+.service-info__col {
+	flex: 1;
+}
+.text {
+	font-size: 18px;
+	line-height: 1.4;
+}
+.text p:not(:last-child) {
+	margin-bottom: 1.5rem;
+}
+.service-info {
+	padding: 50px 0;
+}
+.text .modal-services__list ul li {
+	font-size: 16px;
+}
+.hero__title {
+	font-size: clamp(20px, 5vw, 38px);
+}
+.hero__desc {
+	font-size: clamp(16px, 5vw, 20px);
+}
+.footer__logo img {
+	width: 180px;
+}
+@media (max-width: 998px) {
+	.service-info__wrapper {
+		flex-direction: column-reverse;
+		gap: 30px;
+	}
+	.service-info {
+		padding: 25px 0;
+	}
+}
+@media (max-width: 575px) {
+	.text {
+		font-size: 16px;
+	}
+}
